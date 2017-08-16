@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'SegoeUIBold';
+    src: url('../fonts/SegoeUIBold.ttf');
+}
+
+@font-face {
+    font-family: 'SegoeUIRegular';
+    src: url('../fonts/SegoeUIRegular.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main_wrapper {
+    background: #23232e;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.main_container {
+   height: 850px;
+}
+
+.main_logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 80px;
+    margin-bottom: 150px;
+}
+
+.main_text {
+    text-align: center;
+    color: #fff;
+}
+
+.main_text--caption {
+    font-size: 80px;
+    font-family: SegoeUIBold;
+    line-height: 30px;
+    text-transform: uppercase;
+    margin-bottom: 65px;
+}
+
+.main_text--text {
+    font-size: 18px;
+    font-family: SegoeUIRegular;
+    line-height: 30px;
+}
+
+.main_link {
+    text-decoration: none;
+    position: relative;
+    
+}
+
+.main_btn {
+    margin: 0 auto;
+    height: 44px;
+    width: 44px;
+    border: 2px solid #fff;
+    border-radius: 22px;
+    padding-top: 5px;
+    margin: 0 auto;
+    position: relative;
+    top: 250px;
+}
+
+.angle-down {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+}
+
+.content {
+   padding-top: 60px;
+}
+
+.content_txt {
+    margin: 0 auto;
+    width: 35%;
+    font: 18px SegoeUIRegular;
+    color: #464B4F;
+    padding-top: 55px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.content_title {
+    margin: 0 auto;
+    width: 50%;
+    font-size: 80px;
+    font-family: SegoeUIBold;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 36px;
+    padding-top: 119px;
+}
+
+.content_article {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 120px;
+}
+
+.article_text--title {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: SegoeUIBold;
+    color: #464B4F;
+    padding-top: 80px;
+}
+
+.article_text--word {
+    font: 18px SegoeUIRegular;
+    color: #888A8B;
+    padding-top: 10px;
+}
+
+.article_text {
+    width: 280px;
+    margin-right: 20px;
+}
+
+
+
+
